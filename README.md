@@ -1,6 +1,7 @@
 ## About
 
 This is a parent-facing portal used to register students for an online computer science camp.
+The site is deployed to https://actoninstituteofcs.netlify.app/.
 
 ## Contributors
 
@@ -10,6 +11,18 @@ This is a parent-facing portal used to register students for an online computer 
 - **Ben Wang**
 - **Julia Zhou**
 - **Gloria Zhu**
+
+## Tech Stack
+This app is implemented as a separate frontend and backend app.
+
+**Frontend**
+The frontend is implemented using TypeScript with a React.js/Next.js stack.
+
+**Backend**
+The backend is written in Express.js/TypeScript, leveraging a noSQL Firebase database.
+
+**Deployment**
+The frontend server is deployed using Netlify, with the backend API endpoints being deployed along with frontend server using Netlify serverless functions.
 
 ## Set Up .env file
 
