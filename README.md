@@ -1,7 +1,10 @@
 ## About
 
 This is a parent-facing portal used to register students for an online computer science camp.
+
 The site is deployed to https://actoninstituteofcs.netlify.app/.
+
+For detailed instructions on usage, here is a [parent-facing tutorial](https://docs.google.com/document/d/1XyWpQEXS5YPpIm4neJuyJVhp9gC3Nz6lHQTid5O4a2U/edit).
 
 ## Contributors
 
@@ -16,13 +19,16 @@ The site is deployed to https://actoninstituteofcs.netlify.app/.
 This app is implemented as a separate frontend and backend app.
 
 **Frontend**
+
 The frontend is implemented using TypeScript with a React.js/Next.js stack.
 
 **Backend**
+
 The backend is written in Express.js/TypeScript, leveraging a noSQL Firebase database.
 
 **Deployment**
-The frontend server is deployed using Netlify, with the backend API endpoints being deployed along with frontend server using Netlify serverless functions.
+
+The frontend server is deployed using Netlify, with the backend API endpoints being built and deployed together with the frontend server, and exposed as Netlify serverless functions.
 
 ## Set Up .env file
 
