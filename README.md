@@ -2,14 +2,14 @@
 
 This is a parent-facing portal used to register students for an online computer science camp.
 
-## Contributers
+## Contributors
 
-**Andrew Chen** - Technical Lead
-**Nipun Kisari**
-**Jeffrey Li**
-**Ben Wang**
-**Julia Zhou**
-**Gloria Zhu**
+- **Andrew Chen** - Technical Lead
+- **Nipun Kisari**
+- **Jeffrey Li**
+- **Ben Wang**
+- **Julia Zhou**
+- **Gloria Zhu**
 
 ## Set Up .env file
 
