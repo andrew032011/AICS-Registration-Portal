@@ -1,0 +1,50 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.list {
+  margin-bottom: 20px;
+}
+.studentlist {
+  display: flex;
+  flex-direction: row;
+}
+
+.formmaindiv {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: auto;
+}
+
+.formgeneraldiv {
+  margin-top: 20px;
+  width: 400px;
+}
+
+.opencloseregistrationdiv {
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+}
+
+.classheaderdiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.classheaders {
+  padding-top: 25px;
+  margin: auto;
+}
+
+.classdetailsdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: left;
+}

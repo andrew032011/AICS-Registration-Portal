@@ -1,0 +1,10 @@
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.editbutton {
+  width: 200px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

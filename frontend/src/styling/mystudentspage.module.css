@@ -1,0 +1,15 @@
+.alertdiv {
+  text-align: center;
+  width: 200px;
+  margin: auto;
+  margin-top: 50px;
+}
+.studentlist {
+  display: flex;
+  flex-direction: row;
+  grid-gap: 410px;
+}
+
+.formpadding {
+  padding-top: 5px;
+}

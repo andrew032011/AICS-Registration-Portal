@@ -1,0 +1,23 @@
+.studentlistdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.dialog {
+  margin-left: "16px";
+  max-height: "40px";
+  width: "100px";
+  background-color: #c4302b;
+  margin-left: 10px;
+}
+
+.dialog:hover {
+  transition: 0.5s;
+  background-color: #8c1c1c;
+}
+
+.maindiv {
+  margin-bottom: 20px;
+  width: 500px;
+  margin: auto;
+}

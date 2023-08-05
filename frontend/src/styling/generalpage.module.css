@@ -1,0 +1,70 @@
+.container {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 10rem;
+  background-color: #011627;
+  font-family: Montserrat, sans-serif;
+  color: #ffffff;
+}
+
+.buttondiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  margin: 10px;
+}
+.header1 {
+  text-align: center;
+}
+.header2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+.signOut,
+.deleteButton,
+.unenroll,
+.close {
+  background-color: #c4302b;
+}
+.signOut:hover,
+.deleteButton:hover,
+.unenroll:hover,
+.close:hover {
+  transition: 0.5s;
+  background-color: #8c1c1c;
+}
+.cancelProceedButton {
+  background-color: rgb(219, 219, 219);
+}
+.cancelProceedButton:hover {
+  transition: 0.5s;
+  background-color: rgb(190, 190, 190);
+}
+.openButton {
+  background-color: green;
+}
+.openButton:hover {
+  transition: 0.5s;
+  background-color: rgb(6, 148, 6);
+}
+
+.generaldiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.datagrid {
+  color: white;
+}

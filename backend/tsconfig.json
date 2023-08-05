@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": false,
+    "outDir": "build",
+    "strict": true,
+    "target": "ES5",
+    "lib": ["ESNext", "DOM"]
+  },
+  "include": ["src/**/*"]
+}

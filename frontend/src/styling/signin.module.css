@@ -1,0 +1,32 @@
+.typography {
+  white-space: nowrap;
+}
+
+.textdiv {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.termsandconditions {
+  color: rgb(160, 225, 238);
+}
+
+.signin {
+  text-transform: none;
+}
+.image {
+  margin-right: 10px;
+}
+
+.hr {
+  border-top: 1px solid #000;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.signinbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

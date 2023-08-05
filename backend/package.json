@@ -1,0 +1,39 @@
+{
+  "name": "aics-reg-backend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "netlify-lambda serve build",
+    "dev": "esr src/api.ts",
+    "tsc": "tsc",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts --ext .tsx",
+    "format": "npx prettier --write .",
+    "format:check": "npx prettier --check ."
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "4.17.13",
+    "@types/uuid": "^8.3.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.4",
+    "express": "^4.17.1",
+    "express-winston": "^4.2.0",
+    "firebase-admin": "^9.12.0",
+    "netlify-lambda": "^2.0.14",
+    "serverless-http": "^2.5.0",
+    "typescript": "5.0.4",
+    "uuid": "^8.3.2",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.11",
+    "esbuild": "^0.13.3",
+    "esbuild-runner": "^2.2.1",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.27.5",
+    "prettier": "^2.8.8"
+  }
+}
